@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <header>
-      <nav>
+    <footer className="content-div">
+      <div className="footer-content">
         <p>copyright 2026</p>
-      </nav>
-    </header>
+      </div>
+    </footer>
   );
 }
