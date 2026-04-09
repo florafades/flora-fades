@@ -11,14 +11,15 @@ export default function Home() {
 
     <div className="content-div">
         <section className="content">
+            <h2><img src="..\images\heart_bullet3.gif"/>   welcome   <img src="..\images/heart_bullet3.gif"/></h2>
+          <p>hi and welcome to my art and music realm.  I make shoegaze music and vintage-inspired fantasy artwork as well.</p>
+          <br/>
+          <p><img className="pixel"src="../public/images/pixel-fairy.gif" /></p>
+          <br/>
+          <p>this page is also my love letter to the 90s golden age of the internet, an era that lives on through the indie web. I hope you enjoy!</p>
           <p> 
-          
-                <button>Scroll to Top</button>
-         
-            <br />
-            </p>
-        
-            <p><img src="..\images\pixels\chinesemoon_sm.png" /></p>
+            <button type="button" className="button">about me</button></p>
+    
         </section>
     
     </div>

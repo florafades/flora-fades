@@ -33,9 +33,9 @@ export default function Header() {
         Your browser does not support the audio tag.
       </audio> */}
       {/* <WavAngel /> */}
-      <div className="background">
+      {/* <div className="background">
         <img src="" id="bg-img" />
-    </div>
+    </div> */}
       {/* @ts-ignore - marquee is deprecated but still works in browsers */}
      
   </div>
