@@ -35,14 +35,24 @@ export default function Home() {
         </section>
 
         <section className="card">
-          <p> 
-            <a href="javascript:Navigate('home');window.scrollTo(0, 0);">
-                <button className="button">scroll to top</button>
-            </a>
-            <br />
-            </p>
-        
-            <p><img src="..\images\pixels\chinesemoon_sm.png" /></p>
+          <h2>Art</h2>
+          <p><img src="..\images\png\art.png" /></p>
+      
+          <button type="button" className="button">View More</button>
+        </section>
+
+        <section className="card">
+          <h2>Art</h2>
+          <p><img src="..\images\pixels\chinesemoon_sm.png" /></p>
+      
+          <button type="button" className="button">View More</button>
+        </section>
+
+        <section className="card">
+          <h2>Art</h2>
+          <p><img src="..\images\pixels\chinesemoon_sm.png" /></p>
+      
+          <button type="button" className="button">View More</button>
         </section>
     
     </div>
