@@ -78,7 +78,7 @@ header {
 .content{
    
     box-sizing: border-box;
-    text-align:center;
+    text-align:left;
     color:#57796a;
     background-color: #f3f2f2;
     border-radius: var(--content-radius);
@@ -125,13 +125,31 @@ footer {
   padding:2rem;
 }
 
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
 
-/* rather than targetting all images the same way we can add classes */
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+.card-text {
+  align-items: center;
+}
+
+.card-img {
+   -webkit-mask-image: 
+    linear-gradient(to right,  transparent, black 20%, black 80%, transparent),
+    linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+  -webkit-mask-composite: destination-in;
+  
+  mask-image: 
+    linear-gradient(to right,  transparent, black 20%, black 80%, transparent),
+    linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+  mask-composite: intersect;
+
+  align-items: center;
+  width: 200px;
 }
 
 .pixel {
