@@ -28,6 +28,11 @@ body {
     min-height: 100vh;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .poem { white-space: pre-wrap; }
 
 header {
