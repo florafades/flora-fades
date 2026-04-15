@@ -21,12 +21,14 @@ body {
 
 .page-wrapper {
     width: var(--max-width);
-    max-width: 800px;
+    max-width: 750px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
+.poem { white-space: pre-wrap; }
 
 header {
   /* max-width: 800px; */
@@ -46,6 +48,7 @@ header {
     width: 100%;
     margin: 0 auto 0 auto;
     overflow: hidden;
+    padding: 2rem 0 0 0; 
 }
 
 .card-grid {
@@ -111,7 +114,7 @@ main {
     /* max-width: 90%; */
     margin: 0 auto;
     /* space in between each content bubbble */
-    padding: 2rem 0; 
+    
 }
 
 footer {
