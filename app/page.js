@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./flora.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
 
     <div className="content-div">
         <section className="content">
-            <h2> welcome  ໒꒱ ‧˚ </h2>
+            <h3> welcome ໒꒱ ‧₊˚ </h3>
           <p>hi and welcome to my art and music realm. I make fantasy artwork, bespoke web apps and music</p>
           <br/>
           <p><img src="../images/pixels/fairy.gif" /></p>
@@ -39,9 +40,9 @@ export default function Home() {
 
         <section className="card">
           <p><img className="card-img" src="..\images\png\art.png" /></p>
-          <p>I love making vintage-inspired art using colored pencil, graphite, pen and watercolor ♡</p>
+          <p>vintage-inspired art using colored pencil, graphite, pen and watercolor ♡</p>
       
-          <button type="button" className="button">Portfolio</button>
+          <Link href="/art"><button type="button" className="button">Art</button></Link>
         </section>
 
         <section className="card">

@@ -10,8 +10,11 @@ export default function angels() {
 
     <div className="content-div">
         <section className="card">
-          <p>you have the angel heart</p>
+          <h4>˚₊‧ ꒰ა angel realm ໒꒱ ‧₊˚</h4>
+          
           <p><img src="../images/pixels/angel8globe.gif" /></p>
+
+          <p>you have the angel heart</p>
       
     
         </section>

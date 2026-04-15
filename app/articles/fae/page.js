@@ -10,8 +10,11 @@ export default function Fae() {
 
     <div className="content-div">
         <section className="card">
-          <p>this page is dedicated to fairies</p>
+          <h4>˚₊‧ ꒰ა she was a fairy ໒꒱ ‧₊˚</h4>
+          
           <p><img src="../images/pixels/happy-fae2.png" /></p>
+
+          <p>this page is dedicated to fairies</p>
       
     
         </section>

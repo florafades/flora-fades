@@ -1,7 +1,7 @@
 
 body {
     --max-width: 85%;
-    --content-radius: 10px;
+    --content-radius: 7px;
     --outer-padding: .9rem;
     --body-space: 2rem;
     min-height: 100vh;
@@ -17,6 +17,16 @@ body {
 
     /* max-width: 90%; */
     margin: 0 auto;
+}
+
+.about-photo {
+    /* width: 100%; */
+    max-width: 400px;
+}
+
+.blinkies {
+  display:block;
+  float:left;
 }
 
 .page-wrapper {
