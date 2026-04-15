@@ -20,6 +20,7 @@ export default function Header() {
     <Link href="/">shop</Link>
     <Link href="/affiliates">affiliates</Link>
     <Link href="/articles/fae">fae</Link>
+    <Link href="/articles/angels">angels</Link>
   </nav>
   {/* <NavAngel /> */}
    <marquee> ˚꒰ა ♱ ໒꒱˚ THERE ARE LEGIONS OF ANGELS IN BATTLE FOR YOUR SAKE ˚ ꒰ა ♱ ໒꒱ ˚ FEAR NOT  ˚ ꒰ა ♱ ໒꒱ ˚ THE ANGELS ARE SENT TO LOOK AFTER YOU ˚ ꒰ა ♱ ໒꒱ ˚</marquee>

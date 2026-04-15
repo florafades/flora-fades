@@ -11,7 +11,7 @@ export default function Home() {
 
     <div className="content-div">
         <section className="content">
-            <h2><img src="..\images\heart_bullet3.gif"/>   welcome   <img src="..\images/heart_bullet3.gif"/></h2>
+            <h2> welcome  ໒꒱ ‧˚ </h2>
           <p>hi and welcome to my art and music realm. I make fantasy artwork, bespoke web apps and music</p>
           <br/>
           <p><img src="../images/pixels/fairy.gif" /></p>
