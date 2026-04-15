@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WavAngel from "./WavAngel";
 
 
 export default function Header() {
@@ -29,16 +30,7 @@ export default function Header() {
 
  
    
-      {/* <audio controls>
-        <source src="horse.ogg" type="audio/ogg" />
-        <source src="\music\liminal-spaces.mp3" type="audio/mpeg" />
-        Your browser does not support the audio tag.
-      </audio> */}
-      {/* <WavAngel /> */}
-      {/* <div className="background">
-        <img src="" id="bg-img" />
-    </div> */}
-      {/* @ts-ignore - marquee is deprecated but still works in browsers */}
+  <WavAngel />
      
   </div>
 

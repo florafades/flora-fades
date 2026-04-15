@@ -76,10 +76,7 @@ Upon their quivering wings.<br/>
 
     </section>
 
-    <section className="content">
-          <p></p>
-
-    </section>
+  
     </div>
 
    
