@@ -72,7 +72,12 @@ Upon their quivering wings.<br/>
 
           </p>
 
-          <p>"Fairyland" by Edgar Allan Poe</p>
+          <p><i>"Fairyland" by Edgar Allan Poe</i></p>
+
+    </section>
+
+    <section className="content">
+          <p></p>
 
     </section>
     </div>
