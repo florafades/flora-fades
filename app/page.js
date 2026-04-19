@@ -46,7 +46,7 @@ export default function Home() {
         </section>
 
         <section className="card">
-          <p><img className="card-img" src="..\images\png\music.png" /></p>
+          <p><img className="card-img-png" src="..\images\music.png" /></p>
           <p>stream flora fades on bandcamp</p>
       
           <button type="button" className="button">Music</button>

@@ -71,6 +71,10 @@ export const artData = {
     },
 };
 
+
+
+
+
 export const pixelData = {
     0: {  
         title: "treasured",
@@ -87,3 +91,4 @@ export const pixelData = {
         note: "",
     },
 };
+

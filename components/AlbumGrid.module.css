@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.item {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+}
+
+.image {
+  display: block;
+  width: 90px;
+}
