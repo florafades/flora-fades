@@ -1,4 +1,4 @@
-
+import AngelGrid from "@/components/AngelGrid";
 
 export default function angels() {
   return (
@@ -23,14 +23,13 @@ export default function angels() {
     
     </div>
     <div className="content-div">
-
-    <section className="content">
-          <p>
-            <img src="../images/jpg/angel.jpg" />
-          <img src="../images/jpg/angel1.jpg" /></p>
-
-    </section>
-    </div>
+           
+                   <section className="content">
+                    <AngelGrid />
+           
+                   </section>
+                 </div>
+   
 
    
 </main>
