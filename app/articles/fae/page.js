@@ -1,4 +1,4 @@
-
+import FaeGrid from "@/components/FaeGrid";
 
 export default function Fae() {
   return (
@@ -22,6 +22,18 @@ export default function Fae() {
         
     
     </div>
+
+     <div className="content-div">
+            
+                    <section className="content">
+                     <FaeGrid />
+            
+                    </section>
+                  </div>
+    
+                  
+
+
     <div className="content-div">
 
         <section className="content">

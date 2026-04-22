@@ -5,6 +5,7 @@ export default function Footer() {
     <footer className="content-div">
       <div className="footer-content">
         <p>copyright 2026</p>
+        <img src="./images/butterfly.png"/>
       </div>
     </footer>
   );

@@ -2,11 +2,11 @@
 import { useEffect, useState } from 'react';
 import styles from './Grid.module.css';
 
-export default function DeerGrid() {
+export default function FaeGrid() {
   const [srcs, setSrcs] = useState([]);
 
   useEffect(() => {
-    fetch('/api/deer')
+    fetch('/api/fae')
       .then(res => res.json())
       .then(setSrcs);
   }, []);
