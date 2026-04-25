@@ -626,3 +626,30 @@ body {
   align-items: center;
 }
 
+/*socials*/
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #71A37F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icon-circle i {
+  font-size: 24px;
+  line-height: 1;
+  display: block;
+}

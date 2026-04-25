@@ -60,6 +60,10 @@ export default function Home() {
         </section>
     
     </div>
+
+    <div className="content-div">
+      
+    </div>
 </main>
     </div>
   );

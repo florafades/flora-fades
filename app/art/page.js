@@ -15,24 +15,14 @@ export default function Art() {
           <p>made with love</p>
 
         </section>
-
-
-
-
-
-
-
       </div>
+
       <div className="content-div">
 
         <section className="content">
          <ArtGrid />
 
         </section>
-
-
-
-
       </div>
 
 
