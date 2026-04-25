@@ -12,7 +12,7 @@ export default function Footer() {
       <a className="icon-circle" target="_blank" href="https://florafades.bandcamp.com/"><i className="fa-brands fa-bandcamp"></i></a>
     </p>
         <p>copyright 2026</p>
-        <img src="./images/butterfly.png"/>
+        <img src="/images/butterfly.png"/>
       </div>
     </footer>
   );

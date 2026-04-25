@@ -8,7 +8,7 @@ export default function Header() {
  
   <div className="header-content">
     <a href="/" className="logo-link">
-      <img src="./images/logo.png" alt="Flora Fades Logo" id="bg-img" />
+      <img src="/images/logo.png" alt="Flora Fades Logo" id="bg-img" />
     </a>
   
   <nav className="container">
