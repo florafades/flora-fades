@@ -18,11 +18,9 @@ export default function Home() {
           <p><img src="../images/pixels/fairy.gif" /></p>
           <br/>
           <p>this page is also my love letter to the 90s golden age of the internet, an era that lives on through the indie web. I hope you enjoy!</p>
-          <p> 
-            <button type="button" className="button">about me</button></p>
-    
+          
+          <Link href="/about"><button type="button" className="button">about me</button></Link>
         </section>
-    
     </div>
 
     <div className="card-grid">
@@ -33,7 +31,7 @@ export default function Home() {
           </div>
           
       
-          <button type="button" className="button">Shop</button>
+          <Link href="/coming-soon"><button type="button" className="button">shop</button></Link>
         
             
         </section>
@@ -42,21 +40,21 @@ export default function Home() {
           <p><img className="card-img" src="..\images\png\art.png" /></p>
           <p>vintage-inspired art using colored pencil, graphite, pen and watercolor ♡</p>
       
-          <Link href="/art"><button type="button" className="button">Art</button></Link>
+          <Link href="/art"><button type="button" className="button">art</button></Link>
         </section>
 
         <section className="card">
           <p><img className="card-img-png" src="..\images\music.png" /></p>
           <p>stream flora fades on bandcamp</p>
       
-          <button type="button" className="button">Music</button>
+          <Link  href="https://florafades.bandcamp.com/" target="_blank"><button type="button" className="button">music</button></Link>
         </section>
 
         <section className="card">
           <p><img className="card-img" src="..\images\png\articles.png" /></p>
-          <p>schizo-diagrams, symbols, archetypes and more</p>
+          <p>a few of my favorite things</p>
       
-          <button type="button" className="button">Articles</button>
+          <Link href="/shrines"><button type="button" className="button">shrines</button></Link>
         </section>
     
     </div>

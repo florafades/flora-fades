@@ -44,7 +44,7 @@ export default function About() {
           <section className="card">
             <h4> ˚₊‧ ꒰ა affiliates ໒꒱ ‧₊˚</h4>
             <p>
-              flora fawn, 
+              <a href="https://florafawn.net/" target="_blank">flora fawn</a>
             </p>
           </section>
         </div>
