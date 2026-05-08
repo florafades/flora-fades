@@ -1,5 +1,17 @@
 .grid {
-  columns: 3 100px;
+  columns: 1; /* Mobile: 1 column */
+}
+
+@media (min-width: 640px) {
+  .grid {
+    columns: 2 180px; /* Tablet: 2 columns */
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    columns: 3 220px; /* Desktop: 3 columns */
+  }
 }
 
 .item {
