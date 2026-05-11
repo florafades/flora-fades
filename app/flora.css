@@ -114,6 +114,83 @@ nav > div {
   outline: none;
 }
 
+/* Hide hamburger on desktop, show nav */
+.desktop-nav {
+  display: flex;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+/* Show hamburger on mobile, hide nav */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+  
+  .hamburger-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #57796a;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+}
+
+/* Mobile menu overlay */
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  background: #f3f2f2;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.mobile-menu a {
+  color: #57796a;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Courier New', Courier, monospace !important;
+  padding: 1rem 2rem;
+  margin: 0 -2rem;
+  transition: background-color 0.2s;
+}
+
+.mobile-menu a:hover {
+  background-color: #e7e2d7;
+}
+
+.close-button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #57796a;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
 /* navbar styling end */
 
 img {
