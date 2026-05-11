@@ -47,6 +47,12 @@ export default function Deer() {
   
     </div>
 
+    <div className="content-div">
+        <section className="card">
+          <a href="/shrines"><i className="fa-solid fa-arrow-left"></i> more shrines</a>
+        </section>
+    </div>
+
    
 </main>
     </div>

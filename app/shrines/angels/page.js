@@ -29,6 +29,13 @@ export default function angels() {
            
                    </section>
                  </div>
+
+
+    <div className="content-div">
+        <section className="card">
+          <a href="/shrines"><i className="fa-solid fa-arrow-left"></i> more shrines</a>
+        </section>
+    </div>
    
 
    

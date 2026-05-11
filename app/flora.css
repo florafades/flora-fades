@@ -4,6 +4,7 @@ body {
     --content-radius: 5px;
     --outer-padding: .9rem;
     --body-space: 1.5rem;
+    --nav-margin: 15px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -117,6 +118,7 @@ nav > div {
 /* Hide hamburger on desktop, show nav */
 .desktop-nav {
   display: flex;
+  margin: var(--nav-margin) 0;
 }
 
 .hamburger-button {
@@ -127,13 +129,13 @@ nav > div {
 @media (max-width: 768px) {
   .desktop-nav {
     display: none;
+    
   }
   
   .hamburger-button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin: 0 auto;
   background: none;
   border: 1px solid #ddd;
   font-size: 1rem;
@@ -141,6 +143,7 @@ nav > div {
   cursor: pointer;
   padding: 0.5rem 1rem;
   font-family: 'Courier New', Courier, monospace;
+  margin: var(--nav-margin) auto;
 }
 }
 

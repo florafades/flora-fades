@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import '@/app/flora.css'
 import '@/app/styles.css'
-
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 
 const geistSans = Geist({

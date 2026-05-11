@@ -1,3 +1,5 @@
+'use client'
+
 import FaeGrid from "@/components/FaeGrid";
 
 export default function Fae() {
@@ -11,16 +13,9 @@ export default function Fae() {
     <div className="content-div">
         <section className="card">
           <h4>˚₊‧ ꒰ა she was a fairy ໒꒱ ‧₊˚</h4>
-          
           <p><img src="../images/pixels/happy-fae2.png" /></p>
-
           <p>this page is dedicated to fairies</p>
-      
-    
         </section>
-
-        
-    
     </div>
 
      <div className="content-div">
@@ -92,6 +87,12 @@ Upon their quivering wings.<br/>
     </section>
 
   
+    </div>
+
+    <div className="content-div">
+        <section className="card">
+          <a href="/shrines"><i className="fa-solid fa-arrow-left"></i> more shrines</a>
+        </section>
     </div>
 
    
