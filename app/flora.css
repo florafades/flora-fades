@@ -20,6 +20,11 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', Garamond, serif;
+}
+
+
 .about-photo {
     /* width: 100%; */
     max-width: 400px;
@@ -385,10 +390,6 @@ footer {
     overflow: hidden;
     user-select: none;
     gap: 1rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'EB Garamond', Garamond, serif;
 }
 
 marquee {
