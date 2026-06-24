@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import SiteChrome from "@/components/SiteChrome";
 import '@/app/flora.css'
 import '@/app/styles.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
@@ -29,13 +28,13 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
       </head>
       <body>
-        <div className="page-wrapper">
-          <Header />
-          {children}
-          <Footer />
-        </div>
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );

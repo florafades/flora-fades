@@ -11,8 +11,8 @@ body {
     /* ^imported */
     background-color:#f4f4f4;
     color:#555;
-    font-family:'Courier New', Courier, monospace;
-    font-size:16px;
+    font-family:'EB Garamond', Garamond, serif;
+    font-size:1.125rem;
     line-height:1.6em;
     width: 100%;
 
@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 /* navbar styling */
@@ -73,7 +73,7 @@ nav > div {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #57796a;
   padding: 0;
   font-family: inherit;
@@ -138,11 +138,11 @@ nav > div {
   gap: 0.5rem;
   background: none;
   border: 1px solid #ddd;
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #57796a;
   cursor: pointer;
   padding: 0.5rem 1rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'EB Garamond', Garamond, serif;
   margin: var(--nav-margin) auto;
 }
 }
@@ -166,14 +166,14 @@ nav > div {
   display: flex;
   flex-direction: column;
   gap: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'EB Garamond', Garamond, serif;
 }
 
 .mobile-menu a {
   color: #57796a;
   text-decoration: none;
-  font-size: 1.1rem;
-  font-family: 'Courier New', Courier, monospace !important;
+  font-size: 1.25rem;
+  font-family: 'EB Garamond', Garamond, serif !important;
   padding: 1rem 2rem;
   margin: 0 -2rem;
   transition: background-color 0.2s;
@@ -187,7 +187,7 @@ nav > div {
   align-self: flex-end;
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: #57796a;
   cursor: pointer;
   padding: 0;
@@ -236,7 +236,7 @@ header {
       /* padding: 16px; */
     }
 
-    @media (min-width: 600px) {
+    @media (min-width: 768px) {
       .card-grid {
         grid-template-columns: 1fr 1fr;
       }
@@ -273,14 +273,26 @@ header {
 
 .footer-content{
    
-    box-sizing: border-box;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align:center;
-    color:#57796a;
-    background-color: #f3f2f2;
-    border-radius: var(--content-radius) ;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  text-align:center;
+  color:#57796a;
+  background-color: #f3f2f2;
+  border-radius: var(--content-radius) ;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding:3rem;
 }
+
+.footer-content p {
+  margin: 0;
+}
+
 
 main {
     width: 100%;
@@ -292,7 +304,10 @@ main {
 
 footer {
     padding-bottom: var(--outer-padding);
+   
 } 
+
+
 
 
 
@@ -371,6 +386,14 @@ footer {
     user-select: none;
     gap: 1rem;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Grenze', serif;
+}
+
+marquee {
+    font-size: 15px;
+}
   
 .marquee-content {
     flex-shrink: 0;
@@ -433,7 +456,7 @@ footer {
 
 #showcase h1{
     color:#fff;
-    font-size:50px;
+    font-size:55px;
     line-height: 1.6em;
     padding-top:30px;
 }
@@ -460,7 +483,7 @@ footer {
 }
 
 
-@media(max-width:600px){
+@media(max-width:780px){
     #main{
         width:100%;
         float:none;
@@ -501,7 +524,7 @@ body {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 19px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -521,7 +544,7 @@ body {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 16px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -562,29 +585,14 @@ body {
 
 .footer-socials {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  margin: 20px 0;
+  gap: 1rem;
+
 }
 
-.icon-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #57796a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: white;
-}
 
-.icon-circle i {
-  font-size: 20px;
-  display: block;
-  line-height: 1;
-}
 
 @keyframes fade {
   from {opacity: .4}
@@ -785,28 +793,59 @@ body {
 
 /*socials*/
 
-.footer-socials {
+/* .footer-socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
   margin: 20px 0;
-}
+} */
 
 .icon-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #71A37F;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: white;
+  color: #71A37F;
 }
 
 .icon-circle i {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1;
   display: block;
+}
+
+/* links (link-in-bio) page */
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: var(--content-radius);
+  background-color: #fff;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.link-card:hover {
+  border-color: #71A37F;
+  background-color: #f9faf9;
+}
+
+.link-card h4 {
+  margin: 0;
+}
+
+.link-sub {
+  display: block;
+  font-size: 15px;
+  color: #888;
 }

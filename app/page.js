@@ -59,9 +59,7 @@ export default function Home() {
     
     </div>
 
-    <div className="content-div">
-      
-    </div>
+ 
 </main>
     </div>
   );
