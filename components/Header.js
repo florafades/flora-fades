@@ -65,7 +65,7 @@ export default function Header() {
 
         {/* Mobile Hamburger Button */}
         <button className="hamburger-button" onClick={() => setMobileMenuOpen(true)}>
-  <i className="fa-solid fa-bars"></i> menu
+  <i className="fa-solid fa-bars"></i> Menu
 </button>
 
         {/* Mobile Menu Dialog */}
